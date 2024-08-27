@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: atds-config
+  profiles:
+    active: native
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file://${home}/Documents/
